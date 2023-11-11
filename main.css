@@ -1,0 +1,125 @@
+Body{
+    background-image:linear-gradient(to left, black, white)
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    gap:0.7em;
+}
+
+.containerg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height:200px;
+    
+}
+
+.genero{
+    
+    width:380px;
+    height:90px;
+    border:2px solid black;
+    border-radius:0.6em;
+    flex-direction:row;
+}
+
+h2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.Nome{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.4em;
+    flex-direction:column;
+    
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.4em;
+    flex-direction:column;
+    
+}
+
+.senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+    flex-direction:column;
+
+}
+
+
+
+.nascimento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30px;
+    width: 173px; 
+    border-radius:0.5em;
+    
+}
+
+.input1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 193px;  
+    border-radius:0.5em;
+    text-align:center;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:220px;
+    height:50px;
+    border-radius:0.5em;
+    background-image:linear-gradient(to left, black, white)
+}
+
+.containerb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   
+
+
+

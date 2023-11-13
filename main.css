@@ -23,17 +23,29 @@ Body{
     justify-content: center;
     align-items: center;
     text-align:center;
-    height:200px;
+    height:130px;
     
 }
 
+
+
 .genero{
-    
-    width:380px;
     height:90px;
     border:2px solid black;
     border-radius:0.6em;
     flex-direction:row;
+    line-height: 50px;
+    margin: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.genero:hover{
+     background-image:linear-gradient(to right, black, gray);
+    color:white;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h2{
@@ -88,7 +100,18 @@ h2{
     height: 30px;
     width: 173px; 
     border-radius:0.5em;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
     
+}
+
+.input:hover{
+    background-image:linear-gradient(to right, black, gray);
+    color:white;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .input1{
@@ -97,9 +120,20 @@ h2{
     align-items: center;
     height: 50px;
     width: 193px;  
-    border-radius:0.5em;
     text-align:center;
+    border-radius:0.5em;
+    line-height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
     
+}
+
+.input1:hover{
+    background-image:linear-gradient(to right, black, gray);
+    color:white;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 button{
@@ -107,10 +141,24 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width:220px;
-    height:50px;
-    border-radius:0.5em;
-    background-image:linear-gradient(to left, black, white)
+    width: 200px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+button:hover{
+    background-image:linear-gradient(to right, black, gray);
+    color:white;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
 }
 
 .containerb{
@@ -119,7 +167,38 @@ button{
     align-items: center;
 }
 
-   
+.containerf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height:550px 
+}
 
+.fim{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:388px;
+    height:90px;
+    border:2px solid linear-gradient(to left,black,gray);
+    border-radius:0.6em;
+    flex-direction:row;
+    font-size:30px;
+    background-image:linear-gradient(to left,black,gray);
+    cursor:poiter;
+    transition:transform 0.3s ease-out;
+    line-height:50px;
+    margin:50px;
+    color:white;
+}
 
+a{
+    text-decoration:none;
+    color:white;
+}
 
+a:hover{
+    color:white;
+}
